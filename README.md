@@ -25,6 +25,24 @@ The binary releases correspond with official Chromium releases and branches as s
 
 ## 🚚 Installation
 
+### Maven
+
+The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/105.0.1/aar)
+
+#### Gradle Groovy DSL
+
+```groovy
+implementation 'com.dafruits:webrtc:105.0.1'
+```
+
+#### Gradle Kotlin DSL
+
+```kotlin
+implementation("com.dafruits:webrtc:105.0.1")
+```
+
+**Note:** The version on Maven Central is `105.0.1` instead of `105.0.0` because I screwed up the POM file on the first publish...
+
 ### Manual
 1. Download the AAR from the [releases](https://github.com/rno/WebRTC/releases) section.
 2. Copy the AAR file into a `libs` folder inside your app folder.
@@ -33,10 +51,6 @@ The binary releases correspond with official Chromium releases and branches as s
 ```kotlin
 implementation(files("libs/libwebrtc.aar"))
 ```
-
-### Maven
-
-This is pending :-)
 
 ## 🛠 Compile your own WebRTC AAR
 If you wish to compile your own WebRTC AAR, please refer to the following official guide:
