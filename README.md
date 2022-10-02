@@ -1,6 +1,8 @@
 # WebRTC Binaries for Android
 [![Latest version](https://img.shields.io/github/v/release/rno/webrtc)](https://github.com/rno/WebRTC/releases)
 [![Release Date](https://img.shields.io/github/release-date/rno/webrtc)](https://github.com/rno/WebRTC/releases)
+[![Maven Central](https://img.shields.io/maven-central/v/com.dafruits/webrtc)](https://github.com/rno/WebRTC/releases)
+
 
 
 This repository contains unofficial distribution of WebRTC framework binaries for Android. This is heavily inspired by the work for providing [WebRTC binaries for iOS and MacOS](https://github.com/stasel/WebRTC).
