@@ -27,21 +27,19 @@ The binary releases correspond with official Chromium releases and branches as s
 
 ### Maven
 
-The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/105.0.1/aar)
+The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/106.0.0/aar)
 
 #### Gradle Groovy DSL
 
 ```groovy
-implementation 'com.dafruits:webrtc:105.0.1'
+implementation 'com.dafruits:webrtc:106.0.0'
 ```
 
 #### Gradle Kotlin DSL
 
 ```kotlin
-implementation("com.dafruits:webrtc:105.0.1")
+implementation("com.dafruits:webrtc:106.0.0")
 ```
-
-**Note:** The version on Maven Central is `105.0.1` instead of `105.0.0` because I screwed up the POM file on the first publish...
 
 ### Manual
 1. Download the AAR from the [releases](https://github.com/rno/WebRTC/releases) section.
