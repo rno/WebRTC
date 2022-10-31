@@ -17,7 +17,6 @@ The binary releases correspond with official Chromium releases and branches as s
 
 ## 📢 Requirements
 * minSdkVersion = 21
-* targetSdkVersion = 23
 
 ## 📀 Binaries included
 
