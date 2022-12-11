@@ -1,8 +1,8 @@
 # WebRTC Binaries for Android
 [![Latest version](https://img.shields.io/github/v/release/rno/webrtc)](https://github.com/rno/WebRTC/releases)
 [![Release Date](https://img.shields.io/github/release-date/rno/webrtc)](https://github.com/rno/WebRTC/releases)
+[![Total Downloads](https://img.shields.io/github/downloads/rno/webrtc/total)](https://github.com/rno/WebRTC/releases)
 [![Maven Central](https://img.shields.io/maven-central/v/com.dafruits/webrtc)](https://github.com/rno/WebRTC/releases)
-
 
 
 This repository contains unofficial distribution of WebRTC framework binaries for Android. This is heavily inspired by the work for providing [WebRTC binaries for iOS and MacOS](https://github.com/stasel/WebRTC).
@@ -29,18 +29,18 @@ The binary releases correspond with official Chromium releases and branches as s
 
 ### Maven
 
-The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/107.0.0/aar)
+The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/108.0.0/aar)
 
 #### Gradle Groovy DSL
 
 ```groovy
-implementation 'com.dafruits:webrtc:107.0.0'
+implementation 'com.dafruits:webrtc:108.0.0'
 ```
 
 #### Gradle Kotlin DSL
 
 ```kotlin
-implementation("com.dafruits:webrtc:107.0.0")
+implementation("com.dafruits:webrtc:108.0.0")
 ```
 
 ### Manual
@@ -50,6 +50,12 @@ implementation("com.dafruits:webrtc:107.0.0")
 
 ```kotlin
 implementation(files("libs/libwebrtc.aar"))
+```
+
+### Proguard
+
+```
+-keep class org.webrtc.** { *; }
 ```
 
 ## 🛠 Compile your own WebRTC AAR
