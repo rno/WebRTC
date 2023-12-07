@@ -29,18 +29,18 @@ All binaries in this repository are compiled from the official WebRTC [source co
 
 ### Maven
 
-The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/119.0.0/aar)
+The latest release is available on [Maven Central](https://search.maven.org/artifact/com.dafruits/webrtc/120.0.0/aar)
 
 #### Gradle Groovy DSL
 
 ```groovy
-implementation 'com.dafruits:webrtc:119.0.0'
+implementation 'com.dafruits:webrtc:120.0.0'
 ```
 
 #### Gradle Kotlin DSL
 
 ```kotlin
-implementation("com.dafruits:webrtc:119.0.0")
+implementation("com.dafruits:webrtc:120.0.0")
 ```
 
 ### Manual
@@ -49,7 +49,7 @@ implementation("com.dafruits:webrtc:119.0.0")
 3. Include the following line in the `dependencies` section of your `build.gradle.kts` file
 
 ```kotlin
-implementation(files("libs/libwebrtc-119.0.0.aar"))
+implementation(files("libs/libwebrtc-120.0.0.aar"))
 ```
 
 ### Proguard
