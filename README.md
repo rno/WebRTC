@@ -34,13 +34,13 @@ The latest release is available on [Maven Central](https://search.maven.org/arti
 #### Gradle Groovy DSL
 
 ```groovy
-implementation 'com.dafruits:webrtc:122.0.0'
+implementation 'com.dafruits:webrtc:123.0.0'
 ```
 
 #### Gradle Kotlin DSL
 
 ```kotlin
-implementation("com.dafruits:webrtc:122.0.0")
+implementation("com.dafruits:webrtc:123.0.0")
 ```
 
 ### Manual
@@ -49,7 +49,7 @@ implementation("com.dafruits:webrtc:122.0.0")
 3. Include the following line in the `dependencies` section of your `build.gradle.kts` file
 
 ```kotlin
-implementation(files("libs/libwebrtc-122.0.0.aar"))
+implementation(files("libs/libwebrtc-123.0.0.aar"))
 ```
 
 ### Proguard
