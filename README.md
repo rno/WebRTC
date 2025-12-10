@@ -1,3 +1,10 @@
+# 📣 No Longer Maintained 📣
+
+Google resumed producing pre-built WebRTC Android libraries, see [here](https://github.com/webrtc-sdk/android).
+
+
+
+
 # WebRTC Binaries for Android
 [![Latest version](https://img.shields.io/github/v/release/rno/webrtc)](https://github.com/rno/WebRTC/releases)
 [![Release Date](https://img.shields.io/github/release-date/rno/webrtc)](https://github.com/rno/WebRTC/releases)
